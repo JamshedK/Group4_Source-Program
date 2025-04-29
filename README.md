@@ -21,5 +21,5 @@ python swirl.py
 
 Python version 3.7 is required along with Tensorflow version 1.15 which can be downloaded from https://pypi.org/project/tensorflow/1.15.0/#files.
 
-#SmartIX
+# SmartIX
 The source we used for SmartIX is in the SmartIX folder. In the same folder, there is a README file with instructions on how to run the algorithm.  
