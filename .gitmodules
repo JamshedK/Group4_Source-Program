@@ -1,0 +1,3 @@
+[submodule "SWIRL/SWIRL/rl_index_selection"]
+	path = SWIRL/SWIRL/rl_index_selection
+	url = https://github.com/hyrise/rl_index_selection.git
