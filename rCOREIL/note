@@ -1,0 +1,9 @@
+javac --add-exports java.sql.rowset/com.sun.rowset=ALL-UNNAMED -cp ".:lib/*" src/edu/ucsc/dbtune/**/*.java src/sg/edu/nus/autotune/*.java tests/sg/edu/nus/**/*.java
+
+java --add-exports java.sql.rowset/com.sun.rowset=ALL-UNNAMED -cp ".:lib/*:src:tests" sg.edu.nus.autotune.Launcher
+
+java --add-exports java.sql.rowset/com.sun.rowset=ALL-UNNAMED -cp ".:lib/*:src:tests" sg.edu.nus.autotune.Launcher -a 1 -f postgres/my_workload.sql
+
+SELECT * FROM pg_indexes WHERE schemaname='public';
+DROP INDEX IF EXISTS idx_customer_name; 
+psql -d rCoreil -U teddyd
