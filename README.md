@@ -22,4 +22,4 @@ python swirl.py
 Python version 3.7 is required along with Tensorflow version 1.15 which can be downloaded from https://pypi.org/project/tensorflow/1.15.0/#files.
 
 # SmartIX
-The source we used for SmartIX is in the SmartIX folder. In the same folder, there is a README file with instructions on how to run the algorithm.  
+The source we used for SmartIX is in the SmartIX folder. In the same folder, there is a README file with instructions on how to run the algorithm. We rewrote some of the main Python files. The source code only worked with MySQL database. We rewrote it to make it work with a Postgres database and used benchbase to compute the reward. The files we rewrote were pg_database.py and agent.py. We also added scripts folder that makes it easy to train the algorithm. 
