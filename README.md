@@ -2,7 +2,7 @@ This repository contains the source code for Group 4 CS5513 course. The reposito
 
 # rCOREIL
 The key files in rCOREIL are in the trunk. \n
-In rCOREIL/trunk/config/dbtune.cfg, we have the configuration setup for the databse.
+In rCOREIL/trunk/config/dbtune.cfg, we have the configuration setup for the databse.  \n
 In rCOREIL/trunk/config/lib, we installed key dependencies to the workings of the code
 In rCOREIL/trunk/workloads/postgres, we have the workloads that can be passed to the code as arguments for evaluation 
 In rCOREIL/trunk/src/sg/edu/nus/autotune, we have the PostgresDATA.java file which containes the logic that makes the code function with postgres instead of DB2 as well as other important configuration files
