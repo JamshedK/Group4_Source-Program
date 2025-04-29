@@ -92,6 +92,4 @@ Finally, execute the reinforcement learning algorithm using the `run_algorithm.s
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This source code is similar to the source code uploaded by the authors, but we rewrote some of the main components such as pg_database.py and agent.py. 
